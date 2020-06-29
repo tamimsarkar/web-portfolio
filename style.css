@@ -1,0 +1,32 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.name-color{
+    color: rgb(230, 125, 5);
+}
+.half-width{
+    width: 40%;
+    float: left;
+   margin:20px 5% ;
+   margin-right: 0px;
+}
+.hiring-button{
+    padding: 10px 35px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+   
+}
+.half-width p{
+    margin-bottom: 40px;
+}

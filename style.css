@@ -1,20 +1,30 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 img{
     width: 100%;
+}
+section{
+    height: 600px;
+   
 }
 h1{
     font-size: 40px;
     letter-spacing: 2px;
 }
-
+#top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .name-color{
     color: rgb(230, 125, 5);
 }
 .half-width{
     width: 40%;
-    float: left;
+   float: left;
    margin:20px 5% ;
    margin-right: 0px;
 }

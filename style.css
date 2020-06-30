@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    padding: 0px;
+    
     margin: 0px;
 }
 img{
@@ -10,7 +10,7 @@ section{
     height: 600px;
    
 }
-h1{
+h1,h2{
     font-size: 40px;
     letter-spacing: 2px;
 }
@@ -42,6 +42,7 @@ h1{
 }
 .half-width h2{
     margin-bottom: 40px;
+
 }
 .resume-anchore{
     text-decoration: none;
@@ -54,4 +55,47 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#experiences{
+    background-image: url(images/exp-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left center;
+   
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.experience-level{
+    letter-spacing: normal;
+}
+.experience-des{
+    box-shadow: 7px 2px 40px  gray;
+    height: 80%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding-left: 15px;
+    background-color: white;
+}
+.half-width.experience-des h2 {
+    font-size: 35px;
+}
+.sub-descri{
+    padding: 20px;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: gray;
+
 }
